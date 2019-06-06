@@ -1,5 +1,6 @@
 import numpy as np
 import time
+import math
 
 # Vectorized version
 
@@ -21,3 +22,16 @@ toc = time.time()
 
 print(c)
 print("For loop:" + str(10000*(toc-tic)) + "ms")
+
+
+## Exponential operation on vector
+# for loop version
+n = 5
+u = np.zeros((n, 1))
+for i in range(n):
+    u[i] = math.exp(u[i])
+# vectorized version
+n = 5
+u = np.zeros((n, 1))
+u = np.exp(u)
+asd
