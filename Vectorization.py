@@ -34,4 +34,6 @@ for i in range(n):
 n = 5
 u = np.zeros((n, 1))
 u = np.exp(u)
-asd
+
+
+## Logistic regression derivatives
