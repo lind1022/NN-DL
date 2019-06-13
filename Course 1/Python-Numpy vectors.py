@@ -9,3 +9,5 @@ print(a)
 print(a.T)
 
 print(np.dot(a, a.T))
+
+assert(a.shape == (5,1))
